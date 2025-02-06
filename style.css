@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Describing the madia query for mobile screen */
+/* Describing the media query for mobile screen */
 @media (min-width: 375px) and (max-width: 768px) {
   .logo a {
     font-size: 25px;
