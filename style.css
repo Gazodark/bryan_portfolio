@@ -286,7 +286,7 @@
   }
 
   .about_text {
-    background: url(./assets/Frame\ \(2\).png) no-repeat left bottom, url(./assets/Mask\ Group.png) no-repeat right top;
+    background: url(./assets/Frame\ 2.png) no-repeat left bottom, url(./assets/Mask\ Group.png) no-repeat right top;
   }
 
   .about_text h2 {
@@ -405,7 +405,6 @@
     color: #fff;
     padding: 10px;
   }
-
 
   /* footer styling */
   footer {
