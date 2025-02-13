@@ -6,7 +6,7 @@
 }
 
 /* Describing the media query for mobile screen */
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .logo a {
     font-size: 25px;
     text-decoration: none;
@@ -74,7 +74,6 @@
 
   .project_card_list ul li {
     background-color: #d0d9d4;
-    padding: 2px 5px;
     border-radius: 3px;
     font-weight: bold;
     margin: 11px;
@@ -84,10 +83,11 @@
   .about_card ul li {
     background-color: #fff;
     border: none;
-    max-width: 327px;
-    font-size: 18px;
-    padding: 2px 5px;
+    max-width: 340px;
+    font-size: 20px;
+    padding: 5px 5px;
     border-radius: 3px;
+    margin-left: 10px;
     color: #36b37e;
   }
 
@@ -244,29 +244,26 @@
   }
 
   .project_cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 15px;
   }
 
   .project_card {
     border: 1px solid #868786;
-    width: 327px;
-    height: 474px;
-    border-radius: 8px;
+    width: 370px;
+    height: 500px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 10px;
   }
 
   .project_card_img {
     height: 100%;
-    width: 327px;
+    width: 370px;
     background-color: #d0d9d4;
   }
 
@@ -283,6 +280,7 @@
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
+    margin-bottom: 20px;
   }
 
   .about_text {
@@ -298,39 +296,38 @@
   }
 
   .about_text button {
-    font-size: 30px;
+    padding: 5px 10px;
+    font-size: 29px;
     border-radius: 5px;
     border: 1px;
     background-color: #36b37e;
     color: #fff;
-    margin: 100px;
-    margin-right: 40px;
-    margin-top: 50px;
+    margin-left: 250px;
   }
 
   .about_cards {
-    border: 1px solid #868786;
-    width: 327px;
-    height: 675px;
-    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .about_card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    margin: 25px;
-  }
-
-  .about_card {
+    border: 1px solid #868786;
+    width: 350px;
+    height: 430px;
     border-radius: 8px;
-    width: 327px;
-    height: 316px;
     background-color: #e9f0ec;
-    gap: 20px;
-    padding: -20px;
+    margin: 15px 5px;
   }
 
   .about_card_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 300px;
     height: auto;
   }
@@ -406,6 +403,7 @@
     background-color: #36b37e;
     color: #fff;
     padding: 10px;
+    margin: 5px;
   }
 
   /* footer styling */
@@ -417,4 +415,6 @@
     font-size: 0.1px;
     background: url(/assets/Frame.png) no-repeat right bottom;
   }
+
+  
 }
