@@ -245,7 +245,7 @@
 
   .project_cards {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
@@ -307,7 +307,7 @@
 
   .about_cards {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .about_card {
@@ -388,12 +388,11 @@
     flex-direction: column;
   }
 
-  .contact_form  .mailto {
+  .contact_form .mailto {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    color: #42526E;
-
+    color: #42526e;
   }
 
   .contact_form button {
@@ -415,6 +414,4 @@
     font-size: 0.1px;
     background: url(/assets/Frame.png) no-repeat right bottom;
   }
-
-  
 }
