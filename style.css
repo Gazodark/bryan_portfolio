@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 
-/* Describing the media query for mobile screen */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* Describing the media query for desktop screen */
+@media (min-width: 1024px) and (max-width: 1024px) {
   .logo a {
     font-size: 25px;
     text-decoration: none;
@@ -15,7 +15,9 @@
   }
 
   .desktop_menu {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .desktop_menu.active {
@@ -47,14 +49,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin: 15px 0;
     list-style: none;
-    width: 327px;
+    width: 300px;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 5px;
+    padding: 2px;
   }
 
   .desktop_menu ul {
+    display: flex;
+    gap: 8px;
+    font-size: 10px;
     z-index: 1000;
   }
 
@@ -74,20 +80,25 @@
 
   .project_card_list ul li {
     background-color: #d0d9d4;
-    border-radius: 3px;
+    border-radius: 1px;
     font-weight: bold;
-    margin: 11px;
+    gap: 5px;
+    font-size: 10px;
     color: #3a4a42;
   }
 
   .about_card ul li {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: none;
-    max-width: 340px;
-    font-size: 20px;
+    max-width: 300px;
+    font-size: 15px;
     padding: 5px 5px;
     border-radius: 3px;
-    margin-left: 10px;
+    margin-left: 3px;
     color: #36b37e;
   }
 
@@ -106,7 +117,7 @@
   }
 
   .mobile_menu {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 3px;
     align-items: end;
@@ -127,9 +138,10 @@
   }
 
   .home_para p {
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     margin: 10px 15px;
+    color: #172B4D;
   }
 
   .project_title p {
@@ -140,17 +152,18 @@
 
   .about_text p {
     margin: 16px 16px;
-    font-size: 25px;
+    font-size: 10px;
     text-align: center;
     color: #42526e;
   }
 
   .contact_text p {
+    float: left;
     text-align: center;
-    font-size: 38px;
+    font-size: 30px;
     padding: 40px 50px;
     font-weight: bold;
-    color: #42526e;
+    color: #172B4D;
   }
 
   .mobile_menu.active p:nth-child(1) {
@@ -170,7 +183,7 @@
   }
 
   .Home {
-    background: url(./assets/header-illsutration-mobile@2x.png);
+    background: url(./assets/Header-llustration-desktop@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,6 +214,7 @@
   .home_intro h1:nth-child(1) {
     margin: 15px 0 -10px 0;
     padding: 10px 90px;
+    color: #172B4D;
   }
 
   .home_intro h1:nth-child(2) {
@@ -230,7 +244,8 @@
     flex-direction: column;
     gap: 5px;
     color: #172b4d;
-    font-size: 50px;
+    font-size: 20px;
+    margin: 20px;
     text-align: center;
     font-weight: bold;
   }
@@ -245,30 +260,30 @@
 
   .project_cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .project_card {
     border: 1px solid #868786;
-    width: 370px;
-    height: 500px;
-    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
+    margin: 10px;
   }
 
   .project_card_img {
     height: 100%;
-    width: 370px;
+    width: 200px;
     background-color: #d0d9d4;
   }
 
   .project_card h3 {
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     font-weight: bold;
   }
@@ -284,7 +299,11 @@
   }
 
   .about_text {
-    background: url(./assets/Frame\ 2.png) no-repeat left bottom, url(./assets/Mask\ Group.png) no-repeat right top;
+    background: url(./assets/illustration-about-me-2-desktop.png) no-repeat left bottom, url(./assets/about\ 1\ top\ right.png) no-repeat right top;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center ;
   }
 
   .about_text h2 {
@@ -292,35 +311,31 @@
     text-align: center;
     margin: 45px 3px;
     color: #172b4d;
-    padding: 60px;
   }
 
-  .about_text button {
-    padding: 5px 10px;
-    font-size: 29px;
-    border-radius: 5px;
+  .about_text button{
+    font-size: large;
+    border-radius: 3px;
     border: 1px;
     background-color: #36b37e;
     color: #fff;
-    margin-left: 250px;
   }
 
   .about_cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
   }
 
   .about_card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border: 1px solid #868786;
-    width: 350px;
-    height: 430px;
-    border-radius: 8px;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
     background-color: #e9f0ec;
-    margin: 15px 5px;
+    margin: 20px;
+    gap: 5px;
+    size: 10px;
   }
 
   .about_card_icon {
@@ -329,6 +344,7 @@
     align-items: center;
     justify-content: center;
     width: 300px;
+    margin-top: -10px;
     height: auto;
   }
 
@@ -364,7 +380,7 @@
   form textarea {
     width: 327px;
     margin: 5px 0;
-    border-radius: 8px;
+    border-radius: 3px;
   }
 
   form input {
@@ -393,25 +409,29 @@
     text-decoration: none;
     font-size: 20px;
     color: #42526e;
+    margin: 10px;
   }
 
   .contact_form button {
     font-size: 29px;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px;
     background-color: #36b37e;
     color: #fff;
     padding: 10px;
     margin: 5px;
+    font: inter;
+    size: 17px;
   }
 
   /* footer styling */
   footer {
+    border: 1px solid #868786;
     display: flex;
     justify-content: center;
+    margin-top: 150px;
     align-items: center;
     flex-direction: column;
-    font-size: 0.1px;
-    background: url(/assets/Frame.png) no-repeat right bottom;
+    font-size: 0.01px;
   }
 }
