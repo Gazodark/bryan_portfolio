@@ -141,7 +141,7 @@
     font-size: 15px;
     text-align: center;
     margin: 10px 15px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .project_title p {
@@ -163,7 +163,7 @@
     font-size: 30px;
     padding: 40px 50px;
     font-weight: bold;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .mobile_menu.active p:nth-child(1) {
@@ -214,7 +214,7 @@
   .home_intro h1:nth-child(1) {
     margin: 15px 0 -10px 0;
     padding: 10px 90px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .home_intro h1:nth-child(2) {
@@ -303,7 +303,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content:center ;
+    justify-content: center;
   }
 
   .about_text h2 {
@@ -313,7 +313,7 @@
     color: #172b4d;
   }
 
-  .about_text button{
+  .about_text button {
     font-size: large;
     border-radius: 3px;
     border: 1px;
@@ -420,7 +420,7 @@
     color: #fff;
     padding: 10px;
     margin: 5px;
-    font: inter;
+    font-family: initial;
     size: 17px;
   }
 
