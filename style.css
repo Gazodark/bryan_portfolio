@@ -6,7 +6,7 @@
 }
 
 /* Describing the media query for desktop screen */
-@media (min-width: 1024px) and (max-width: 1024px) {
+@media(max-width: 768px) {
   .logo a {
     font-size: 25px;
     text-decoration: none;
@@ -15,15 +15,19 @@
   }
 
   .desktop_menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ display: none;
   }
 
   .desktop_menu.active {
     display: flex;
     position: absolute;
     background-color: white;
+    flex-direction: column;
+  }
+  .desktop_menu.active ul {
+    position: absolute;
+    background-color: white;
+    flex-direction: column;
   }
 
   .home_list ul {
@@ -64,16 +68,6 @@
     z-index: 1000;
   }
 
-  .desktop_menu.active ul {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 28px;
-    width: 550px;
-    height: 550px;
-    border-radius: 9px;
-  }
-
   .desktop_menu ul li {
     display: flex;
   }
@@ -102,10 +96,7 @@
     color: #36b37e;
   }
 
-  .desktop_menu.active ul li {
-    font-weight: bold;
-    font-size: 40px;
-  }
+
 
   .desktop_menu ul li a {
     text-decoration: none;
@@ -117,12 +108,14 @@
   }
 
   .mobile_menu {
-    display: none;
+  display: flex;
     flex-direction: column;
     gap: 3px;
     align-items: end;
     margin: 10px 15px;
   }
+
+
 
   /* footer paragraph styling */
   footer p {
