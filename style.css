@@ -106,11 +106,7 @@
   }
 
   .mobile_menu {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    align-items: end;
-    margin: 10px 15px;
+    display: none;
   }
 
   /* footer paragraph styling */
