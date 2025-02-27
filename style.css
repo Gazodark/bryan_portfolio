@@ -22,7 +22,7 @@
     display: flex;
     position: absolute;
     background-color: rgb(130, 219, 235);
-  }  
+  }
 
   .home_list ul {
     display: flex;
@@ -69,7 +69,7 @@
     width: 550px;
     height: 550px;
     border-radius: 9px;
-  }  
+  }
 
   .project_card_list ul li {
     background-color: #d0d9d4;
@@ -90,7 +90,6 @@
     color: #36b37e;
   }
 
-  
   .desktop_menu.active ul li {
     font-weight: bold;
     font-size: 40px;
@@ -128,7 +127,7 @@
   }
 
   .home_para p {
-    color: #172B4D;
+    color: #172b4d;
     text-align: center;
     margin: 10px 15px;
     font-size: 20px;
@@ -202,7 +201,7 @@
 
   .home_intro h1:nth-child(1) {
     margin: 15px 0 -10px 0;
-    color: #172B4D;
+    color: #172b4d;
     padding: 10px 90px;
   }
 
@@ -426,7 +425,7 @@
     align-items: center;
     flex-direction: column;
     font-size: 0.1px;
-    background: url(/assets/Frame\ \(3\).png) no-repeat right bottom;
+    background: url(/assets/Frame3.png) no-repeat right bottom;
   }
 }
 
@@ -527,7 +526,6 @@
     list-style: none;
   }
 
-
   .desktop_menu.active ul li a {
     text-decoration: none;
     color: #42526e;
@@ -557,7 +555,6 @@
   .home_para p {
     font-size: 23px;
     text-align: center;
-    margin: 10px 15px;
     color: #172b4d;
     margin: 50px;
   }
@@ -569,7 +566,6 @@
   }
 
   .about_text p {
-    margin: 16px 16px;
     font-size: 20px;
     text-align: center;
     color: #42526e;
@@ -577,11 +573,11 @@
   }
 
   .contact_text p {
-      text-align: center;
-      font-size: 38px;
-      padding: 40px 50px;
-      font-weight: bold;
-      color: #42526e;
+    text-align: center;
+    font-size: 38px;
+    padding: 40px 50px;
+    font-weight: bold;
+    color: #42526e;
   }
 
   .mobile_menu.active p:nth-child(1) {
@@ -851,8 +847,8 @@
     font-size: 0.01px;
     background: url(/assets/Frame\ \(3\).png) no-repeat right bottom;
   }
-}
 
+}
 /* Describing the media query for desktop screen */
 @media (min-width: 1024px) and (max-width: 1024px) {
   .logo a {
@@ -983,7 +979,7 @@
     float: left;
     text-align: center;
     font-size: 15px;
-    margin: 0px 0px;
+    margin: 0 0;
     font-weight: bold;
     color: #172b4d;
   }
