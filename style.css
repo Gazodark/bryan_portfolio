@@ -846,7 +846,7 @@
 }
 
 /* Describing the media query for desktop screen */
-@media (min-width: 1024px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .logo a {
     font-size: 25px;
     text-decoration: none;
