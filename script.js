@@ -117,3 +117,4 @@ function displayProjectCard()
 
 }
 document.addEventListener("DOMContentLoaded",displayProjectCard);
+})
