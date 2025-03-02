@@ -35,12 +35,13 @@
     width: 300px;
   }
 
-  .project_card_list ul {
+  .project_card ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 10px;
+    gap: 15px;
+    padding: 0px;
   }
 
   .about_card_list ul {
@@ -71,11 +72,12 @@
     border-radius: 9px;
   }
 
-  .project_card_list ul li {
+  .project_card ul li {
     background-color: #d0d9d4;
     border-radius: 3px;
     font-weight: bold;
-    margin: 11px;
+    font-size: 15px;
+    margin: 6px;
     color: #3a4a42;
   }
 
@@ -238,7 +240,7 @@
     font-weight: bold;
   }
 
-  .project_card_title h3 {
+  .project_card h3 {
     font-size: 40px;
     font-weight: bold;
     margin: 3px 50px;
@@ -258,7 +260,7 @@
     border: 1px solid #868786;
     width: 340px;
     height: 475px;
-    border-radius: 10px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,7 +268,7 @@
     gap: 10px;
   }
 
-  .project_card_img {
+  .project_card img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     height: 100%;
@@ -401,8 +403,10 @@
     flex-direction: column;
   }
 
-  .contact_form .mailto {
+  .mailto {
+    display: flex;
     text-align: center;
+    justify-content: center;
     text-decoration: none;
     font-size: 20px;
     color: #42526e;
@@ -459,7 +463,7 @@
     width: 300px;
   }
 
-  .project_card_list ul {
+  .project_card ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -496,7 +500,7 @@
     border-radius: 9px;
   }
 
-  .project_card_list ul li {
+  .project_card ul li {
     background-color: #d0d9d4;
     border-radius: 1px;
     font-weight: bold;
@@ -690,7 +694,7 @@
     margin: 10px;
   }
 
-  .project_card_img {
+  .project_card img {
     height: 100%;
     width: 200px;
     background-color: #d0d9d4;
@@ -823,8 +827,10 @@
     background: url(/assets/Frame4.png) no-repeat right bottom;
   }
 
-  .contact_form .mailto {
+  .mailto {
+    display: flex;
     text-align: center;
+    justify-content: center;
     text-decoration: none;
     font-size: 20px;
     color: #42526e;
@@ -880,7 +886,7 @@
     width: 300px;
   }
 
-  .project_card_list ul {
+  .project_card ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -911,7 +917,7 @@
     display: flex;
   }
 
-  .project_card_list ul li {
+  .project_card ul li {
     background-color: #d0d9d4;
     border-radius: 1px;
     font-weight: bold;
@@ -984,20 +990,11 @@
     display: flex;
     text-align: center;
     font-size: 15px;
+    margin: 10px;
     padding: 10px 10px 0 5px;
     font-weight: bold;
     color: #172b4d;
     /* background: url(./assets/abou.png) no-repeat left bottom */
-  }
-
-  .contact_text p:nth-child(1) {
-    margin: 10px;
-    padding: 5px;
-  }
-
-  .contact_text p:nth-child(2) {
-    margin: 10px;
-    padding: 5px;
   }
 
   .mobile_menu.active p:nth-child(1) {
@@ -1112,7 +1109,7 @@
     margin: 10px;
   }
 
-  .project_card_img {
+  .project_card img {
     height: 100%;
     width: 200px;
     background-color: #d0d9d4;
@@ -1218,7 +1215,7 @@
   }
 
   .form input,
-  .form textarea {
+  .form text {
     width: 327px;
     margin: 5px 0px;
     border-radius: 3px;
